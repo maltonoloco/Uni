@@ -1,3 +1,1 @@
-# Uni
-
-# Für die Uni
+Python-Projekte

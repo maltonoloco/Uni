@@ -53,7 +53,7 @@ P0="W" # Passwort ist W........ also 9 Zeichen lang; Zeichen 2-9 (also P1...P8) 
 
 ##### Ab hier Loesung:
 
-"""
+
 def schreiben(text, file):
     with open("F:/Test/"+file+".txt", 'a') as file:
         file.writelines(text + "\n")
@@ -127,7 +127,7 @@ for p0 in upper_alphabet:
 pwd_list = list()
 for i in range(len(pwd)):
     pwd_list.append((pwd[i],pwd[i].lower()))
-"""
+
 
 print("time: " + str(time.time()-start))
 

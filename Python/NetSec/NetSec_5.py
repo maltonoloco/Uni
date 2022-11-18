@@ -28,11 +28,11 @@ def prga(s, d, l):
         s[j] = temp
         out.append(s[(s[i%l] + s[j]) % l])
     return out
-
-#k1 = [168, 202, 60, 127, 195, 61, 207, 35]
-k1 = [4, 7, 5, 2, 6]
-s = ksa(k1, 3)
-print(prga(s, 1, 3))
+"""
+k1 = [168, 202, 60, 127, 195, 61, 207, 35]
+#k1 = [4, 7, 5, 2, 6]
+s = ksa(k1, 8)
+print(prga(s, 17, 8))
 #s = ksa(k1, 8)
 #print(prga(s, 17, 8))
 
@@ -44,4 +44,3 @@ for i in range(7):
     print(t)
     s = ksa(t, 3)
     print(prga(s, 2, 3))
-"""
